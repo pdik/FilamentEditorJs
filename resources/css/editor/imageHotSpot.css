@@ -1,0 +1,158 @@
+.image-hotspot-tool {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image-hotspot-tool__image-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image-hotspot-tool__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-hotspot-tool__caption {
+  border: 1px solid #e8e8eb;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.image-hotspot-tool__caption:empty:before {
+  content: attr(placeholder);
+  color: #707684;
+}
+
+.image-hotspot-tool__caption:focus {
+  outline: none;
+  border-color: #388ae5;
+}
+
+.image-hotspot-tool__hotspot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.image-hotspot-tool__hotspot-marker {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #388ae5;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(56, 138, 229, 0.3);
+  transition: all 0.2s ease;
+}
+
+.image-hotspot-tool__hotspot:hover .image-hotspot-tool__hotspot-marker {
+  transform: scale(1.2);
+  background-color: #388ae5;
+}
+
+.image-hotspot-tool__hotspot-editor {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+  padding: 15px;
+}
+
+.image-hotspot-tool__hotspot-editor-header {
+  margin-bottom: 10px;
+}
+
+.image-hotspot-tool__hotspot-editor-title {
+  width: 100%;
+  font-weight: 500;
+}
+
+.image-hotspot-tool__hotspot-editor-content {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.image-hotspot-tool__hotspot-editor-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-hotspot-tool__button {
+  background-color: #eff2f5;
+  border: 0;
+  border-radius: 4px;
+  color: #707684;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: background-color 0.2s ease;
+}
+
+.image-hotspot-tool__button:hover {
+  background-color: #e1e4e8;
+}
+
+.image-hotspot-tool__button--primary {
+  background-color: #388ae5;
+  color: white;
+}
+
+.image-hotspot-tool__button--primary:hover {
+  background-color: #3072be;
+}
+
+.image-hotspot-tool__button--danger {
+  background-color: #e53838;
+  color: white;
+}
+
+.image-hotspot-tool__button--danger:hover {
+  background-color: #c72b2b;
+}
+
+.image-hotspot-tool__upload-button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+.image-hotspot-tool__add-hotspot-button {
+  margin-top: 10px;
+}
+
+.image-hotspot-tool__input {
+  border: 1px solid #e8e8eb;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.image-hotspot-tool__input:focus {
+  border-color: #388ae5;
+}
+
+.image-hotspot-tool__textarea {
+  border: 1px solid #e8e8eb;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.image-hotspot-tool__textarea:focus {
+  border-color: #388ae5;
+}
