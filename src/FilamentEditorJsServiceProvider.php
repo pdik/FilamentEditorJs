@@ -5,16 +5,15 @@ namespace Pdik\FilamentEditorJs;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
-use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Pdik\FilamentEditorJs\Commands\FilamentEditorJsCommand;
+use Pdik\FilamentEditorJs\Testing\TestsFilamentEditorJs;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Pdik\FilamentEditorJs\Commands\FilamentEditorJsCommand;
-use Pdik\FilamentEditorJs\Testing\TestsFilamentEditorJs;
 
 class FilamentEditorJsServiceProvider extends PackageServiceProvider
 {
