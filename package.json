@@ -12,18 +12,8 @@
     },
     "devDependencies": {
         "@awcodes/filament-plugin-purge": "^1.1.1",
-        "@tailwindcss/forms": "^0.5.4",
-        "@tailwindcss/typography": "^0.5.9",
-        "autoprefixer": "^10.4.14",
-        "esbuild": "^0.19.2",
-        "npm-run-all": "^4.1.5",
-        "postcss": "^8.4.26",
-        "postcss-import": "^15.1.0",
-        "prettier": "^2.7.1",
-        "prettier-plugin-tailwindcss": "^0.1.13",
-        "tailwindcss": "^3.3.3",
-
         "@codexteam/icons": "^0.3.3",
+        "@editorjs/attaches": "^1.3.0",
         "@editorjs/editorjs": "^2.30.8",
         "@editorjs/header": "^2.8.8",
         "@editorjs/image": "^2.10.2",
@@ -34,10 +24,22 @@
         "@editorjs/text-variant-tune": "^1.0.3",
         "@editorjs/underline": "^1.2.1",
         "@editorjs/warning": "^1.4.1",
+        "@tailwindcss/forms": "^0.5.4",
+        "@tailwindcss/typography": "^0.5.9",
+        "autoprefixer": "^10.4.14",
         "editorjs-alert": "^1.1.4",
         "editorjs-anchor": "^1.1.3",
         "editorjs-drag-drop": "^1.1.16",
+        "editorjs-imagehotspot": "^1.0.0",
         "editorjs-indent-tune": "^1.4.1",
-        "editorjs-style": "^3.0.3"
+        "editorjs-notice": "^1.1.2",
+        "editorjs-style": "^3.0.3",
+        "esbuild": "^0.19.2",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.26",
+        "postcss-import": "^15.1.0",
+        "prettier": "^2.7.1",
+        "prettier-plugin-tailwindcss": "^0.1.13",
+        "tailwindcss": "^3.3.3"
     }
 }
