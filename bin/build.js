@@ -46,5 +46,5 @@ const defaultOptions = {
 compile({
     ...defaultOptions,
       entryPoints: ['./resources/js/editor.js'],
-    outfile: './resources/js/dist/editor.js',
+    outfile: './resources/dist/editor.js',
 })
