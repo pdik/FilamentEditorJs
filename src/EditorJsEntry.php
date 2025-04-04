@@ -16,15 +16,17 @@ class EditorJsEntry extends ViewComponent
         }
     }
 
-     private function isJson($string): bool
+    private function isJson($string): bool
     {
-        if (!is_string($string)) {
+        if (! is_string($string)) {
             return false;
         }
 
         json_decode($string);
+
         return json_last_error() === JSON_ERROR_NONE;
     }
+
     public function render(): \Illuminate\Contracts\View\View
     {
         return view($this->view, [
